@@ -10,6 +10,7 @@ public class Client {
 		College college =context.getBean("collegeBean",College.class);
 		System.out.println("College Object created at:: "+college);
 		college.test();
+		((AnnotationConfigApplicationContext)context).close();
 	}
 
 }

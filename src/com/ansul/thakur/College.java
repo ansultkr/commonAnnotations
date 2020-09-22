@@ -10,6 +10,7 @@ public class College {
 
 	public void setPrincipal(Principal principal) {
 		this.principal = principal;
+		System.out.println("setter injection!!");
 	}
 
 	public void test() {
