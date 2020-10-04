@@ -11,6 +11,7 @@ public class College {
 	
 	@Autowired
 	private Principal principal;
+	
 	@Autowired
 	private Teacher teacher;
 	
