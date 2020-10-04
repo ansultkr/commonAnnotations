@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class College {
-	@Value("Mahant Ram College of Engineering")
+	@Value("${college.Name}")
 	private String collegeName;
 	
 	@Autowired
